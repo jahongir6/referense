@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edt_number"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edt_addres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="adress"
+        android:textSize="25sp"
+        android:visibility="gone" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/spinner_employee"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/spinner_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/btn_save"
+        android:text="save"/>
+</LinearLayout>
